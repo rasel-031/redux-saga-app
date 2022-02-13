@@ -1,0 +1,51 @@
+.skeleton-container {
+  height: auto;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  animation: skeleton 1s linear infinite;
+}
+
+@keyframes skeleton {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+.skeleton-img {
+  height: 150px;
+  width: 100%;
+  background-color: whitesmoke;
+  margin-bottom: 12px;
+}
+
+.skeleton-title {
+  height: 40px;
+  width: 100%;
+  background-color: whitesmoke;
+  margin-bottom: 12px;
+}
+
+.skeleton-category {
+  height: 20px;
+  width: 70%;
+  background-color: whitesmoke;
+  margin-bottom: 12px;
+}
+.skeleton-price {
+  height: 20px;
+  width: 40%;
+  margin-bottom: 12px;
+  background-color: whitesmoke;
+}
+.skeleton-rating {
+  height: 20px;
+  width: 60%;
+  margin: 12px auto;
+  background-color: whitesmoke;
+  display: flex;
+}
